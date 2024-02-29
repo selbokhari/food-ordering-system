@@ -9,6 +9,7 @@ Ce système est un exemple complet et fonctionnel d'un système de demande de re
 - **Architecture Microservices**
 - **Architecture Hexagonale**
 - **Event Driven Development**
+- **Docker**
 - **Saga Pattern** pour gérer les transactions entre les micro-services
 - **Kafka** utilisé comme event sourcing, configuré en mode ZooKeeper avec un seul ZooKeeper et 3 Brokers, 6 topics et 3 partitions
 - **Schema Registry / Avro** pour valider les messages échangés entre les micro-services

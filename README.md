@@ -6,13 +6,14 @@ Ce système est un exemple complet et fonctionnel d'un système de demande de re
 
 ## Technologies
 
-* Développement piloté par les événements (Event Driven Development)
-* Architecture hexagonale
-* Saga Pattern
-* Kafka comme Event Sourcing
-* Schema Registry / Avro
-* Kafka Manager
-* PostgreSQL
+- **Architecture Microservices**
+- **Architecture Hexagonale**
+- **Event Driven Development**
+- **Saga Pattern** pour gérer les transactions entre les micro-services
+- **Kafka** utilisé comme event sourcing, configuré en mode ZooKeeper avec un seul ZooKeeper et 3 Brokers, 6 topics et 3 partitions
+- **Schema Registry / Avro** pour valider les messages échangés entre les micro-services
+- **Kafka Manager** pour surveiller les topics et les brokers
+- **PostgreSQL** utilisé comme base de données du système
 
 ![Architecture de l'application](https://raw.githubusercontent.com/selbokhari/food-ordering-system/main/architecture.png)
 

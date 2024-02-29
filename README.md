@@ -70,7 +70,7 @@ GET http://localhost:8181/orders/6a84f37a-6273-425e-9123-97c2a5ea7b84
 ## Réponse :
 ```json
 {
-  "orderTrackingId": "534d0861-81b5-4e43-91b0-c98fa216d636",
+  "orderTrackingId": "6a84f37a-6273-425e-9123-97c2a5ea7b84",
   "orderStatus": "APPROVED",
   "failureMessages": []
 }

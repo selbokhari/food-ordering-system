@@ -20,9 +20,9 @@ Ce système est un exemple complet et fonctionnel d'un système de demande de re
 ## Utilisation
 
 1. Démarrer Zookeeper: `docker-compose -f common.yml -f zookeeper.yml up`
-2. Démarrer le cluster Kafka: `docker-compose -f common.yml -f kafka_cluster.yml up`
-3. Initialiser les topics Kafka: `docker-compose -f common.yml -f init_kafka.yml up`
-4. Vérifier le statut de Zookeeper: `echo ruok | nc localhost 2181`
+2. Vérifier le statut de Zookeeper: `echo ruok | nc localhost 2181`
+3. Démarrer le cluster Kafka: `docker-compose -f common.yml -f kafka_cluster.yml up`
+4. Initialiser les topics Kafka: `docker-compose -f common.yml -f init_kafka.yml up`
 5. Démarrer les micro-services.
 
 ## Tests de bout en bout
